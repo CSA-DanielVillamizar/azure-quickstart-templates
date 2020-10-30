@@ -232,9 +232,10 @@
                   "settings": {
                     "fileUris": [
                       "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/201-vmss-bottle-autoscale/installserver.sh",
-                      "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/201-vmss-bottle-autoscale/workserver.py"
+                      "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/201-vmss-bottle-autoscale/workserver.py",
+                      "https://raw.githubusercontent.com/CSA-DanielVillamizar/azure-quickstart-templates/master/201-vmss-bottle-autoscale/install_wordpress.sh"
                     ],
-                    "commandToExecute": "bash installserver.sh"
+                    "commandToExecute": "bash install_wordpress.sh"
                   }
                 }
               }
