@@ -5,14 +5,14 @@
     "vmSize": {
       "type": "string",
       "allowedValues": [
-        "Standard_A1",
-        "Standard_A2",
-        "Standard_A3",
-        "Standard_A4",
-        "Standard_D1",
-        "Standard_D2",
-        "Standard_D3",
-        "Standard_D4"
+        "Standard_B2ms",
+        "Standard_B4ms",
+        "Standard_DC1s_v2",
+        "Standard_DC2s_v2",
+        "Standard_D2_v3",
+        "Standard_D4_v3",
+        "Standard_D2a_v4",
+        "Standard_D4a_v4"
       ],
       "metadata": {
         "description": "Size of vm"
@@ -215,7 +215,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "fileUris": [
-            "[concat(parameters('_artifactsLocation'), '/scripts/hello.sh')]"
+            "[concat(parameters('_artifactsLocation'), '/install_wordpress.sh')]"
           ],
           "commandToExecute": "[parameters('commandToExecute')]"
         }
