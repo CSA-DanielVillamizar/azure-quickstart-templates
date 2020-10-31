@@ -6,13 +6,13 @@
       "value": "GEN-UNIQUE"
     },
     "vmSize": {
-      "value": "Standard_D1"
+      "value": "Standard_B2ms"
     },
     "dnsNameForPublicIP": {
       "value": "GEN-UNIQUE"
     },
     "commandToExecute": {
-      "value": "sh hello.sh"
+      "value": "install_wordpress.sh"
     },
     "adminPasswordOrKey": {
       "value": "GEN-SSH-PUB-KEY"
